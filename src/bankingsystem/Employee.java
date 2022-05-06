@@ -2,9 +2,9 @@
 package bankingsystem;
 
 public class Employee {
-    private String name;
-    private double salary;
-    private int id;
+    private String name;    //emp name
+    private double salary;  // emp salary
+    private int id;        // emp id
     
     
     public Employee(String name,double salary,int id){
@@ -14,7 +14,7 @@ public class Employee {
     }
     
     public void setEmployeeName(String name){
-        this.name = name;
+        this.name = name; 
     } 
     
     public void setEmployeeSalary(double salary){
